@@ -1,0 +1,54 @@
+{
+  "name": {
+    "elementType": "input",
+    "elementConfig": {
+      "name": "name",
+      "label": "name",
+      "type": "text",
+      "required": true,
+      "errorMessage": "Enter contact name, from 2 to 10 characters",
+      "placeholder": "Enter contact name"
+    },
+    "value": "",
+    "validation": {
+      "required": true,
+      "minLength": "2",
+      "maxLength": "10"
+    },
+    "valid": false,
+    "touched": false
+  },
+  "phone": {
+    "elementType": "input",
+    "elementConfig": {
+      "name": "phone",
+      "label": "phone",
+      "type": "number",
+      "required": true,
+      "errorMessage": "Enter phone number, from 2 to 12 digits",
+      "placeholder": "Enter phone number"
+    },
+    "validation": {
+      "required": true,
+      "minLength": "2",
+      "maxLength": "10"
+    },
+    "value": "",
+    "valid": false,
+    "touched": false
+  },
+  "created": {
+    "elementType": "input",
+    "elementConfig": {
+      "name": "date",
+      "label": "date",
+      "type": "date"
+    },
+    "validation": {
+      "required": false
+    },
+    "value": "",
+    "valid": true,
+    "touched": false
+  }
+}
