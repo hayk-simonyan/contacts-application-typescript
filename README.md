@@ -5,9 +5,7 @@
 3. `npm i`
 4. `npm start`
 
-## Live
-
-https://contacts-app-9346.web.app/
+## [Live Version Here](https://contacts-app-9346.web.app/)
 
 ## Here is an explanation of how to configure form with config file
 
