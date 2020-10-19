@@ -15,33 +15,7 @@ The config file inside of `./config/contactFormConfig.json` contains object with
 
 ## TypeScript configuration
 
-Also consider changing those interfaces to match with the `src/config/contactFormConfig.json` file
-
-1. contactFormConfig.ts
-
-```typescript
-export interface IConfigElement {
-  elementType: string;
-  elementConfig: {
-    name: string;
-    label: string;
-    type: string;
-    required?: boolean;
-    errorMessage?: string;
-    placeholder?: string;
-  };
-  validation: {
-    required: boolean;
-    minLength?: string;
-    maxLength?: string;
-  };
-  value: string;
-  valid: boolean;
-  touched: boolean;
-}
-```
-
-2. `src/models/Contact.ts`
+After updating the `contactFormConfig.json` file you should also consider to update the `IContact` interface inside of a `models/Contact.ts` to match with the JSON file
 
 ```typescript
 export interface IContact {
